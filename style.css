@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+  /* border: 0.2px solid grey; */
+
+}
+
+.container{
+  margin: 40px;
+}
+
+
+
+body{
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("assets/pexels-maxyne-barcel-10402282\ 1.png") no-repeat fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 20vh;
+}
+
+
+.list{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+
+}
+
+.list-item{
+  margin: 1px 30px;
+  /* padding: 1px 30px; */
+  list-style: none;
+  color: #FFC233;
+}
+
+.button-small{
+  /* margin: 25px; */
+  padding: 10px 40px;
+  background-color: #FF505F;
+  border: none;
+  font-size: 20px;
+  color: antiquewhite;
+}
+
+.logo{
+  height: 40px;
+}
+
+button:hover{
+  background-color: white;
+  color: #FF505F;
+  cursor: pointer;
+}
+
+li:hover{
+  color: white;
+  cursor: pointer;
+}
+
+.hero-heading{
+  text-align: center;
+  font-size: 95px;
+  font-family: dela gothic one;
+  padding: 1px 100px;
+  color: #FFC233;
+}
+
+.button-large{
+  display: block;
+  margin: 20px auto;
+  background-color: #FF505F;
+  padding: 30px 40px;
+  font-size: 30px ;
+  color: antiquewhite;
+  border: none;
+}
+
+.bottom > div > img{
+  position: relative;
+  display: block;
+  margin-left: 1000px;
+}
